@@ -1,5 +1,7 @@
-Excercises from the Fluent Python textbook, by Luciano Ramalho
-============================================================================
+Jupyter notebooks for "Fluent Python", by Luciano Ramalho
+=========================================================
+
+[cover]: http://akamaicovers.oreilly.com/images/0636920032519/cat.gif "Cover"
 
 ## Chapter One
 
