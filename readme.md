@@ -15,8 +15,9 @@ Chapter 2 dives into the Python sequence types, based on the C primitives. First
 
 The third chapter focuses on dictionaries and sets, which are widely used and fast data structures. It outlines some real world uses, such as module namespaces, and discusses dict comprehension syntax. There is then a discussion of some of the standard dict types - such as defaultdict and ordered dict, and the available methods, like default key, missing key. There is a section dedicated to the UserDict type, and the relevant built-ins. Mapping proxy is highlighted as a read-only, but dynamic view of a dict. Finally, there is a summary of set theory, and hash tables, which explains why dicts must be immutable, why lookup is so fast, and why there is a memory overhead.
 
-## Chapter Four
+## Chapter Four - Text vs Bytes
 
+The author works through the unicode standard, and the various encodings which implement it. A couple of examples are used to illustrate encoding and decoding a non-ASCII character, and the Python byte sequences are introduced, followed by struct and memory views. A few different encoders are discussed, including files encoding and default system encoding. The chapter goes onto show how mixed characters can be normalised, casefolded and sanitised, and stripped of diacritics. A short function displays the unicode database, including some metadata.
 
 ## Chapter Five
 
