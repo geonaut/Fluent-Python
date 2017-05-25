@@ -19,6 +19,10 @@ The third chapter focuses on dictionaries and sets, which are widely used and fa
 
 The author works through the unicode standard, and the various encodings which implement it. A couple of examples are used to illustrate encoding and decoding a non-ASCII character, and the Python byte sequences are introduced, followed by struct and memory views. A few different encoders are discussed, including files encoding and default system encoding. The chapter goes onto show how mixed characters can be normalised, casefolded and sanitised, and stripped of diacritics. A short function displays the unicode database, including some metadata.
 
-## Chapter Five
+## Chapter Five - First-class functions
+
+This chapter deals with one of the key features of Python - functions being first-class objects. This means they can be created at runtime, assigned to var or element, passed as an argument or returned as a result. The idea of a higher-order function is introduced, being a function that takes another function as an argument. Then anonymous functions are introduced, as well a different types of callable object. Some nice examples of positional and keyword arguments are introduced, as well as introspection using passive attributes like co_varnames & annotations, and more advanced modules such as inspect. There is also a brief introduction to functional programming operators and funtools.
+
+## Chapter Six
 
  
