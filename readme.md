@@ -23,6 +23,12 @@ The author works through the unicode standard, and the various encodings which i
 
 This chapter deals with one of the key features of Python - functions being first-class objects. This means they can be created at runtime, assigned to var or element, passed as an argument or returned as a result. The idea of a higher-order function is introduced, being a function that takes another function as an argument. Then anonymous functions are introduced, as well a different types of callable object. Some nice examples of positional and keyword arguments are introduced, as well as introspection using passive attributes like co_varnames & annotations, and more advanced modules such as inspect. There is also a brief introduction to functional programming operators and funtools.
 
-## Chapter Six
+## Chapter Six - Design patterns with first-class functions
+
+A relatively brief chapter, the advantages of functions as first class objects are reinforced through the refactoring of a couple of design patterns, as listed in the famous 'Gang of Four' design pattern book. The Strategy design pattern is particularly clearly discussed, with functions being passed as objects to disassocate them from a particular class.
+
+## Chapter Seven - Function decorators and closures
+
+This chapter covers a lot of ground, and does a really solid job of explaining decorators, closures, nonlocal vars and nested functions. Each term is given a good definition, and then the interplay and interdependencies of the different entities is explained. The chapter closes with some standard library decorators, and then goes on to establish a custom decorator, which is passed arguments, and customised even further. The final examples are quite complex, but should help to clarify a lot of the 'framework magic' used in e.g. Flask and Django.
 
  
